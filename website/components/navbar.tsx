@@ -12,9 +12,9 @@ import Link from "next/link"
 import { useState } from "react"
 
 const navLinks: { title: string; href: string }[] = [
-  { title: "Services", href: "#" },
-  { title: "About", href: "#" },
-  { title: "Case Studies", href: "#" },
+  { title: "Services", href: "/services" },
+  { title: "Case Studies", href: "/case-studies" },
+  { title: "About", href: "/about" },
 ]
 
 const cta = { title: "Contact us", href: "/contact" }
@@ -27,11 +27,11 @@ export function Navbar() {
       <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
         {/* Logo */}
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">ClearStack</span>
             <img
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
+              src="/images/logo.png"
+              alt="ClearStack Logo"
               className="h-8 w-auto"
             />
           </a>
@@ -78,11 +78,11 @@ export function Navbar() {
           <div className="fixed inset-0 z-50" />
           <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">ClearStack</span>
                 <img
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
+                  src="/images/logo.png"
+                  alt="ClearStack Logo"
                   className="h-8 w-auto"
                 />
               </a>
