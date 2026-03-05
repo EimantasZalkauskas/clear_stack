@@ -35,7 +35,7 @@ export function ServicesSection() {
     return (
         <div className="flex justify-center text-center flex-col items-center gap-12">
             <BlurFade delay={0.4} inView>
-            <h1 className=" text-4xl sm:text-6xl lg:text-8xl font-semibold tracking-tight text-balance heading-text">Make Your Business Work For You</h1>
+            <h2 className=" text-4xl sm:text-6xl lg:text-8xl font-semibold tracking-tight text-balance heading-text">Make Your Business Work For You</h2>
             </BlurFade>
             <div className="flex flex-row pb-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-8">
@@ -43,7 +43,7 @@ export function ServicesSection() {
                         <BlurFade key={index} delay={0.5 + index * 0.1} inView>
                             <MagicCard gradientColor="#e0e7ff" gradientOpacity={0.3} gradientFrom="#9E7AFF" gradientTo="#FE8BBB"
                             className="bg-white p-8 rounded-lg shadow-md w-full min-h-[280px]">
-                                    <h2 className="text-xl font-semibold mb-5">{service.title}</h2>
+                                    <h3 className="text-xl font-semibold mb-5">{service.title}</h3>
                                     <p className="text-gray-600">{service.description}</p>
                                     <InteractiveHoverButton className="mt-10" onClick={() => redirectToService(index)}>Learn More</InteractiveHoverButton>
                             </MagicCard>

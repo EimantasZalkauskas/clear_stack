@@ -30,7 +30,7 @@ export function CaseStudiesSection() {
     return (
         <div className="flex justify-center text-center flex-col items-center gap-6 sm:gap-8 lg:gap-12 pt-4 sm:pt-6 lg:pt-8 px-4 w-full">
             <BlurFade delay={0.2} inView>
-            <h1 className="text-4xl sm:text-6xl lg:text-8xl font-semibold tracking-tight text-balance heading-text">Case Studies</h1>
+            <h2 className="text-4xl sm:text-6xl lg:text-8xl font-semibold tracking-tight text-balance heading-text">Case Studies</h2>
             </BlurFade>
             <div className="flex flex-col pb-12 sm:pb-16 lg:pb-20 w-full max-w-7xl">
                 <Carousel className="w-full">
