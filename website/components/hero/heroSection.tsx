@@ -20,7 +20,7 @@ export function HeroSection() {
             <h1 className="text-4xl sm:text-6xl lg:text-8xl font-semibold tracking-tight text-balance heading-text">Backend Systems That Scale. Full Stack Solutions That Ship.</h1>
             </BlurFade>
             <BlurFade delay={0.5} inView>
-            <p className="mt-4 sm:mt-6 lg:mt-8 text-base sm:text-lg lg:text-xl font-medium text-pretty body-text max-w-3xl">Expert web development, backend engineering, and cloud solutions. I help businesses build scalable systems and modernize their digital presence—from custom websites to enterprise cloud infrastructure.</p>
+            <p className="mt-4 sm:mt-6 lg:mt-8 text-base sm:text-lg lg:text-xl font-medium text-pretty body-text max-w-3xl">Expert web development, backend engineering, and cloud solutions. Helping businesses build scalable systems and modernize their digital presence—from custom websites to enterprise cloud infrastructure.</p>
             </BlurFade>
             <BlurFade delay={1} inView>
             <ShimmerButton className="accent mt-6 sm:mt-8"><Link href="/contact">Book a Discovery Call</Link></ShimmerButton>
