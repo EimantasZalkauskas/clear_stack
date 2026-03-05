@@ -196,7 +196,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg body-text">
                 <strong>You get someone who cares about your success.</strong> Your project isn't just another
-                contract—it's a technical challenge I'm invested in solving well.
+                contract—it's a technical challenge I'm invested in solving.
               </p>
             </div>
           </BlurFade>
