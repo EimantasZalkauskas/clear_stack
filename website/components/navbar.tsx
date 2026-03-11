@@ -14,6 +14,7 @@ import { useState } from "react"
 const navLinks: { title: string; href: string }[] = [
   { title: "Services", href: "/services" },
   { title: "Case Studies", href: "/case-studies" },
+  { title: "Blog", href: "/blog" },
   { title: "About", href: "/about" },
 ]
 

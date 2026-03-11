@@ -5,6 +5,7 @@ const footerLinks = {
     { title: "About", href: "/about" },
     { title: "Services", href: "/services" },
     { title: "Case Studies", href: "/case-studies" },
+    { title: "Blog", href: "/blog" },
   ],
   legal: [
     { title: "Privacy Policy", href: "#" },
