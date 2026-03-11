@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://clearstack.dev' // Update this to your actual domain
+  const baseUrl = 'https://www.clearstackconsulting.co.uk' // Update this to your actual domain
 
   return [
     {
